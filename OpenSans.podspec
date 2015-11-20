@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.homepage = 'https://github.com/CocoaPods-Fonts/OpenSans'
   spec.screenshot = 'http://f.cl.ly/items/2t2F032e3W0h2T1i0j1n/opensans-ios7-iphone5.png'
   spec.social_media_url = 'https://twitter.com/kylefuller'
-  spec.platform = :ios
+  spec.platform = :tvos, '9.0'
   spec.source = { :git => 'https://github.com/CocoaPods-Fonts/OpenSans.git', :tag => spec.version.to_s }
   spec.source_files = 'UIFont+OpenSans.{h,m}'
   spec.resource_bundle = { 'OpenSans' => 'Fonts/*.ttf' }
